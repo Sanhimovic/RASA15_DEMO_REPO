@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="softwares/selenium-server-standalone-3.141.59 (2).jar"/>
+	<classpathentry exported="true" kind="lib" path="softwares/selenium-server-standalone-3.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
