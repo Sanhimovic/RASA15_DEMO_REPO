@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CitiBank">
+<groups>
+<run>
+<include name="smoke"></include>
+<exclude name="smoke"></exclude>
+</run>	
+</groups>	
+	<test thread-count="5" name="OpenBankAccount">
+		<classes>
+			<class name="openBankAccount.SalariedAccount" />
+			<class name="openBankAccount.ZeroBalance">
+			</class>
+			<class name="openBankAccount.SavingsBankAccount" />
+			<class name="openBankAccount.CurrentAccount" />
+		</classes>
+	</test> <!-- OpenBankAccount -->
+	<test name="Loans">
+		<classes>
+			<class name="loans.HomeLoans"></class>
+		</classes>
+	</test> <!-- Loans -->
+</suite> <!-- Suite -->		
